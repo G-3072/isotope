@@ -1,0 +1,36 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Icore/parser/include",
+      "-Icore/main/include",
+      "-g",
+      "-Wall",
+      "-Werror",
+      "-c",
+      "-o",
+      "build/core/parser/src/parser.c.o",
+      "core/parser/src/parser.c"
+    ],
+    "directory": "/home/gasc/dev/Isotope",
+    "file": "/home/gasc/dev/Isotope/core/parser/src/parser.c",
+    "output": "/home/gasc/dev/Isotope/build/core/parser/src/parser.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Icore/parser/include",
+      "-Icore/main/include",
+      "-g",
+      "-Wall",
+      "-Werror",
+      "-c",
+      "-o",
+      "build/core/main/src/main.c.o",
+      "core/main/src/main.c"
+    ],
+    "directory": "/home/gasc/dev/Isotope",
+    "file": "/home/gasc/dev/Isotope/core/main/src/main.c",
+    "output": "/home/gasc/dev/Isotope/build/core/main/src/main.c.o"
+  }
+]
