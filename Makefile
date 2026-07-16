@@ -41,6 +41,8 @@ ${BUILD_DIR}/%.S.o: %.S
 clean:
 	rm -rf ${BUILD_DIR}/**
 
+run: ${BUILD_DIR}/${TARGET}
+	${BUILD_DIR}/${TARGET}
 # test targets
 
 TEST_CC := ${BUILD_DIR}/${TARGET}
@@ -57,8 +59,6 @@ TEST_SOURCES := ${shell find ${TEST_SRC_DIR} -name '*.ci'}
 TEST_TARGET := out
 
 test_prj: ${BUILD_DIR}/${TARGET} ${TEST_SOURCES}
-	echo ${TEST_SOURCES}
 	${TEST_CC} ${TEST_SOURCES}
-
 
 
