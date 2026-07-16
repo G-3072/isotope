@@ -1,4 +1,4 @@
 /build/
-/test/
+/tests/
 compile_commands.json
 len.txt
